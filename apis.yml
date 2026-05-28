@@ -1,0 +1,32 @@
+aid: tankerkoenig
+name: Tankerkoenig
+description: "German realtime gas/diesel prices"
+url: https://creativecommons.tankerkoenig.de/swagger/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Transportation"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Transportation
+  - Public APIs
+apis:
+  - name: Tankerkoenig
+    description: "German realtime gas/diesel prices"
+    humanURL: https://creativecommons.tankerkoenig.de/swagger/
+    baseURL: https://creativecommons.tankerkoenig.de/swagger/
+    tags:
+      - Transportation
+    properties:
+      - type: Documentation
+        url: https://creativecommons.tankerkoenig.de/swagger/
+common:
+  - type: Website
+    url: https://creativecommons.tankerkoenig.de/swagger/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
