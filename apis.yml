@@ -23,10 +23,14 @@ apis:
       - type: Documentation
         url: https://creativecommons.tankerkoenig.de/swagger/
 common:
+  - type: DomainSecurity
+    url: security/tankerkoenig-domain-security.yml
   - type: Website
     url: https://creativecommons.tankerkoenig.de/swagger/
   - type: PublicAPIsListing
     url: https://github.com/public-apis/public-apis
+  - url: http://blog.tankerkoenig.de/feeds/posts/default
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
