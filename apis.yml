@@ -39,7 +39,6 @@ apis:
   - name: Tankerkoenig
     description: "German realtime gas/diesel prices"
     humanURL: https://creativecommons.tankerkoenig.de/swagger/
-    baseURL: https://creativecommons.tankerkoenig.de/swagger/
     tags:
       - Transportation
     properties:
